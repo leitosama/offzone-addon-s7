@@ -7,7 +7,7 @@ locale                   : "en-US"
 title                    : "S7 Addon"
 name                     : &name "leitosama" # &name is a YAML anchor which can be *referenced later
 description              : &description "S7 Addon for OFFZONE 2024"
-url                      : https://offzone-addon-s7.github.io/
+url                      : https://leitosama.github.io/offzone-addon-s7/
 baseurl                  : "/"
 repository               : "leitosama/offzone-addon-s7"
 
