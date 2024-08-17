@@ -1,12 +1,54 @@
-<html>
-	<head>
-		<title>
-			S7 Badge for OFFZONE 2024
-		</title>
-	</head>
-	<body>
-		<h1>Design</h1>
-		<img src="./design/design.svg" />
-	</body>
-</html>
+---
+layout: splash
+permalink: /
+hidden: false
+header:
+  overlay_color: "#C4D600"
+  overlay_image: /assets/fly.jpg
+  actions:
+    - label: "<i class='fas fa-download'></i> Check it now"
+      url: "https://github.com/leitosama/offzone-addon-s7/"
+intro: 
+  - excerpt: 'Our community presents a new cool addon for OFFZONE 2024 badge (SAO V.1 Standard). Authors:'
+about:
+  - image_path: /assets/non-grata.jpg
+    alt: "leitosama"
+    title: "leitosama"
+    excerpt: "Just talking person"
+    url: "https://github.com/leitosama/"
+    btn_label: "leitosama's GitHub"
+    btn_class: "btn--primary"
+  - image_path: /assets/non-grata.jpg
+    alt: "Unknown actor #2"
+    title: "Unknown actor #2"
+    excerpt: "Electronic guy"
+  - image_path: /assets/non-grata.jpg
+    alt: "Unknown actor #3"
+    title: "Unknown actor #3"
+    excerpt: "Badge Designer"
+feature_row2:
+  - image_path: /assets/lights.jpg
+    alt: "Air navigation lights"
+    title: "Feature #1. Air navigation lights"
+    excerpt: 'Yeah, badge is actually glowing like airplane'
+feature_row3:
+  - image_path: /assets/sao.png
+    alt: "Shitty Addon V.1 Standard compatible"
+    title: "Feature #2. Shitty Addon V.1 Standard compatible"
+    excerpt: 'Not only for offzone'
+feature_row4:
+  - image_path: /design/design.svg
+    alt: "From Siberia with love"
+    title: "From Siberia with love"
+    excerpt: 'Our professional designer create a very cool idea for livery: siberian wild forest'
+---
 
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row id="about" %}
+
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row4" type="left" %}
